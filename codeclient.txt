@@ -1,0 +1,12 @@
+[Interface]
+PrivateKey = (Ini akan otomatis Generate Tidak Perlu di ganti)
+#salin bagian Bawah Saja
+
+Address = (IP yang diberikan ke Client yang ada di server di file wg0.conf bagian [Peer])
+DNS = 8.8.8.8 (OPTIONAL)
+
+[Peer]
+PublicKey = (PublicKey Server)
+AllowedIPs = 0.0.0.0/0
+Endpoint = (ip virtual Box kalian):(port yang kalian pakai di wg0.conf dibagian [interfaces]
+
